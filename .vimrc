@@ -72,3 +72,8 @@
 :set expandtab
 :set smartindent
 :set tabstop=4
+
+:set autoindent
+:set si
+:set shiftwidth=4
+:set cinoptions+=j1

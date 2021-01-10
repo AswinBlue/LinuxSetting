@@ -58,16 +58,17 @@
 "   source /etc/vim/vimrc.local
 "   endif
 "
-"   colorscheme molokai
-"   set ts=4
-"   set sw=4
-"   set sts=4
-"   set smartindent
-"   set hlsearch
+set ts=4
+set sw=4
+set sts=4
+set smartindent
+set hlsearch
 "   " indent for python"
-"   set smartindent
+set smartindent
 "   cinwords=if,elif,else,for,while,try,except,finally,def,class
 :colorscheme molokai
+:highlight comment term=bold cterm=bold ctermfg=4
+
 :set hlsearch
 :set expandtab
 :set smartindent
